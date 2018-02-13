@@ -31,7 +31,7 @@
 		<a href="https://www.instagram.com/pam_weinstock_london/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/ig.png" border="0" /></a>
 		<a href="https://twitter.com/pamweinstock" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/tw.png" border="0" /></a>
 			
-		<p>&copy; 2016 Pam Weinstock | <a href="<?php echo get_site_url(); ?>/privacy-policy/">Privacy Policy</a> | <a href="<?php echo get_site_url(); ?>/shipping-returns/">Shipping &amp; Returns</a></p>
+		<p>&copy; <?php echo date('Y'); ?> Pam Weinstock | <a href="<?php echo get_site_url(); ?>/privacy-policy/">Privacy Policy</a> | <a href="<?php echo get_site_url(); ?>/shipping-returns/">Shipping &amp; Returns</a></p>
 			
 	</div>
 	

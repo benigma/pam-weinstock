@@ -68,6 +68,7 @@
 </div>
 
 <div class="container press">
+
 	<h3>As seen in the following publications</h3>
 	
 	<div class="press-logos">

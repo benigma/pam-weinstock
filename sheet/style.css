@@ -22,12 +22,12 @@ html, body {
 body {
 	background: #FFF;
 	color: #000;
-	font-family: "utopia-std-display", 'Times New Roman', sans-serif;
+	font-family: "freight-display-pro", 'Times New Roman', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 }
 h1 {
-	font-family: "utopia-std-display", sans-serif;
+	font-family: "freight-display-pro", sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	color: #000;
@@ -35,15 +35,11 @@ h1 {
 }
 h2 {
 	font-size: 48px;
-	font-family: "utopia-std-display", 'Times New Roman', sans-serif;
+	font-family: "freight-display-pro", 'Times New Roman', sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	text-transform: uppercase;
 }
-h3 {
-	font-weight: 400;
-}
-
 form h4 {
 	margin-top: 12px;
 	font-size: 24px;
@@ -69,9 +65,7 @@ hr {
 	margin: 0 auto;
 }
 .grey {
-	background: none;
-	border-top: 1px solid #ebebeb;
-	border-bottom: 1px solid #ebebeb;
+	background: #d3d5d5;
 }
 
 /* Buttons & Fields */
@@ -82,7 +76,7 @@ input[type='email'], input[type='text'], textarea {
 	color: #666;
 	padding: 13px 20px;
 	border: 1px solid #636363;
-	font-family: "utopia-std-display", 'Times New Roman', sans-serif;
+	font-family: "freight-display-pro", 'Times New Roman', sans-serif;
 	font-style: normal;
 	font-weight: 500;
 }
@@ -93,7 +87,7 @@ input[type='submit'] {
 	color: #FFF;
 	padding: 13px 20px;
 	text-transform: uppercase;
-	font-family: "utopia-std-display", 'Times New Roman', sans-serif;
+	font-family: "freight-display-pro", 'Times New Roman', sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	-webkit-appearance: none;
@@ -109,7 +103,7 @@ button, input[type='button'] {
 	line-height: 30px;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: "utopia-std-display", 'Times New Roman', sans-serif;
+	font-family: "freight-display-pro", 'Times New Roman', sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	transition: background 0.25s ease-in-out;
@@ -157,7 +151,7 @@ nav ul li {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 20px;
-	font-family: "utopia-std-display", sans-serif;
+	font-family: "freight-display-pro", sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	float: left;
@@ -190,9 +184,9 @@ nav ul#menu-top-menu li {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 20px;
-	font-family: "utopia-std-display", sans-serif;
+	font-family: "freight-display-pro", sans-serif;
 	font-style: normal;
-	font-weight: 400;	
+	font-weight: 700;	
 	border: none;
 }
 nav ul#menu-top-menu li img {
@@ -222,17 +216,20 @@ nav ul.menu li {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 20px;
-	font-family: "utopia-std-display", sans-serif;
+	font-family: "freight-display-pro", sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 700;
+	border: 2px solid #d3d5d5;
 	border-top: none;
 	z-index: 1000;
 }
 nav ul.menu li:hover {
+	border: 2px solid #FFF;
 	border-top: none;
 }
 nav ul.menu li.current-menu-item, nav ul.menu li.current-menu-parent, nav ul.menu li.current-page-ancestor {
-	background: #ebebeb;
+	background: #a9aaaa;
+	border: 2px solid #a9aaaa;
 	border-top: none;
 }
 nav ul.menu li.current-menu-item:hover, nav ul.menu li.current-menu-parent:hover, nav ul.menu li.current-page-ancestor:hover {
@@ -335,9 +332,9 @@ nav ul.menu li.current-menu-parent:hover ul.sub-menu li.current-menu-item:hover,
 }
 .owl-carousel .slide-content h3 {
 	margin: 0;
-	font-family: "utopia-std-display", sans-serif;
+	font-family: "freight-display-pro", sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 64px;
 	text-align: center;
 	text-transform: uppercase;
@@ -345,7 +342,7 @@ nav ul.menu li.current-menu-parent:hover ul.sub-menu li.current-menu-item:hover,
 	line-height: 1.25em;
 }
 .owl-carousel .slide-content p {
-	font-family: "utopia-std-display", sans-serif;
+	font-family: "freight-display-pro", sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 21px;
@@ -422,22 +419,17 @@ nav ul.menu li.current-menu-parent:hover ul.sub-menu li.current-menu-item:hover,
 }
 #product-area .title {
 	width: 100%;
-	color: #666;
-	font-family: "utopia-std-display", sans-serif;
+	background: #d4d6d6;
+	color: #000;
+	font-family: "freight-display-pro", sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 700;
 	text-transform: uppercase;
-	text-align: center;
+	text-indent: 25px;
 	padding: 8px 0;
 	margin: 1em 0 0 0;
-	border-top: 1px solid #ebebeb;
-	border-bottom: 1px solid #ebebeb;
 	font-size: 30px;
 }
-#product-area .title strong {
-	font-weight: 700;
-}
-
 .box-medium {
 	width: 30%;
 	max-width: 350px;
@@ -463,9 +455,9 @@ nav ul.menu li.current-menu-parent:hover ul.sub-menu li.current-menu-item:hover,
 	background: rgba(204,204,204,0.6);
 	color: #000;
 	font-size: 24px;
-	font-family: "utopia-std-display", sans-serif;
+	font-family: "freight-display-pro", sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 700;
 	margin-top: 160px;
 	padding: 0 20px;
 	text-transform: uppercase;
@@ -477,9 +469,9 @@ nav ul.menu li.current-menu-parent:hover ul.sub-menu li.current-menu-item:hover,
 .box-medium a h4 {
 	color: #000;
 	font-size: 24px;
-	font-family: "utopia-std-display", sans-serif;
+	font-family: "freight-display-pro", sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
 	text-decoration: none;
@@ -508,9 +500,9 @@ nav ul.menu li.current-menu-parent:hover ul.sub-menu li.current-menu-item:hover,
 	background: rgba(204,204,204,0.6);
 	color: #000;
 	font-size: 24px;
-	font-family: "utopia-std-display", sans-serif;
+	font-family: "freight-display-pro", sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 700;
 	margin-top: 160px;
 	padding: 0 20px;
 	text-transform: uppercase;
@@ -615,16 +607,16 @@ nav ul.menu li.current-menu-parent:hover ul.sub-menu li.current-menu-item:hover,
 	margin: auto;
 	font-size: 30px;
 	line-height: 36px;
-	font-family: "utopia-std-display", sans-serif;
+	font-family: "freight-display-pro", sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 700;
 }
 .press p {
 	width: 50%;
 	margin: auto;
 	font-size: 18px;
 	line-height: 24px;
-	font-family: "utopia-std-display", sans-serif;
+	font-family: "freight-display-pro", sans-serif;
 	font-style: normal;
 	font-weight: 300;
 }
@@ -667,7 +659,7 @@ nav ul.menu li.current-menu-parent:hover ul.sub-menu li.current-menu-item:hover,
 .about-page .about-content h1 {
 	text-transform: uppercase;
 	font-size: 48px;
-	font-family: "utopia-std-display", sans-serif;
+	font-family: "freight-display-pro", sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 1.5em;
@@ -764,13 +756,12 @@ nav ul.menu li.current-menu-parent:hover ul.sub-menu li.current-menu-item:hover,
 	margin-top: 0.75em;
 }
 .sales-area .sales-information .sales-type h1 {
-	font-family: "utopia-std-display", sans-serif;
 	font-size: 48px;
 	text-transform: uppercase;
 }
 .sales-area .sales-information .sales-type h4 {
 	font-size: 24px;
-	font-family: "utopia-std-display", sans-serif;
+	font-family: "freight-display-pro", sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	color: #000;
@@ -892,12 +883,12 @@ nav ul.menu li.current-menu-parent:hover ul.sub-menu li.current-menu-item:hover,
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: flex-start;
+	justify-content: space-between;
 	margin: 0;
 }
 .additional-sales-items .additional-sales-images div {
 	width: 22.5%;
-	margin: 25px 1.25%;
+	margin: 25px 0px;
 }
 .additional-sales-items .additional-sales-images div a {
 	text-decoration: none;
@@ -989,7 +980,6 @@ footer {
 	width: 100%;
 	height: auto;
 	min-height: 250px;
-	border-top: 5px solid #FFF;
 	background: #dfdfdf url('img/footer-bg-3.jpg') no-repeat top right;
 }
 #newsletter-signup {
@@ -1057,7 +1047,7 @@ footer .copyright .social-icons p {
 	width: 100%;
 	font-size: 14px;
 	color: #666;
-	font-family: "utopia-std-display", sans-serif;
+	font-family: "freight-display-pro", sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	line-break: 18px;
@@ -1290,7 +1280,7 @@ footer .copyright .social-icons img {
 		margin: 0 auto;
 		padding: 13px 20px;
 		border: 1px solid #636363;
-		font-family: "utopia-std-display", 'Times New Roman', sans-serif;
+		font-family: "freight-display-pro", 'Times New Roman', sans-serif;
 		font-style: normal;
 		font-weight: 500;
 	}

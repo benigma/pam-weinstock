@@ -12,9 +12,9 @@ Template Name: Sales Zoom Page Template
 		<div class="sales-image">
 		
 			<?php echo the_field('product_image'); ?>
-			<div class="sales-share">
+			<!-- <div class="sales-share">
 				<span>Share this</span> <span><div class="fb-share-button" data-href="<?php echo the_permalink(); ?>" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div></span> <span style="margin-top: 12px;"><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-via="pamweinstock" data-lang="en" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></span>
-			</div>
+			</div> -->
 		</div>
 		
 		<div class="sales-information">
